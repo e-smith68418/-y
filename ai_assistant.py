@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 
-from PyInstaller.compat import system
 from openai import OpenAI
 
 st.set_page_config(page_title="小橙",
