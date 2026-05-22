@@ -52,13 +52,13 @@ elif section == "所作努力":
         - 学习过程中完成 **大量代码片段**（列表，元组，函数等）   
         """)
         code_images = [
-            "./img.png",
-            "./img_1.png",
-            "./img_2.png",
-            "./img_3.png",
-            "./img_4.png",
-            "./img_5.png",
-            "./img_6.png"
+            "img.png",
+            "img_1.png",
+            "img_2.png",
+            "img_3.png",
+            "img_4.png",
+            "img_5.png",
+            "img_6.png"
         ]
 
         if "img_index_code" not in st.session_state:
@@ -95,7 +95,7 @@ elif section == "所作努力":
         - 学会调用官方API，并用 **Apifox** 进行接口测试  
         - 能够完成文本生成、对话等基础任务  
         """)
-        st.image("./img_7.png",
+        st.image("img_7.png",
                  caption="项目示意图")
 
     st.success("通过自学和实践，对于计算机专业的兴趣只增不减。")
