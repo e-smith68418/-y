@@ -16,7 +16,7 @@ if section == "转专业原因":
     with col2:
         st.success("**计算机兴趣**\n\n喜欢编程与新技术，希望将计算机作为终身事业。")
     st.markdown("---")
-    st.caption("从口腔医学跨出，是因为我内心更向往代码世界的创造与逻辑之美。")
+    st.caption("向往代码世界")
 
 #学业成绩
 elif section == "成绩":
@@ -94,6 +94,7 @@ elif section == "所作努力":
         - 使用 **Ollama** 本地部署 **DeepSeek** 开源模型  
         - 学会调用官方API，并用 **Apifox** 进行接口测试  
         - 能够完成文本生成、对话等基础任务  
+        - https://kunnksgxbb9llugwahclub.streamlit.app/
         """)
         st.image("img_7.png",
                  caption="项目示意图")
